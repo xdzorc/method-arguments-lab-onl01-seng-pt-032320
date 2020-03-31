@@ -3,9 +3,7 @@ def introduction(name)
 end
 introduction("daz")
 
-
 def introduction_with_language(name, language)
-  puts "Hi,my name is #{name} and I am learning to program in #{language}."
+  puts"Hi, my name is #{name} and I am learning to program in #{language}."
 end
-introduction_with_language("Daz","ruby")
-introduction_with_language("Daz","Java")
+introduction_with_language("daz","ruby")
